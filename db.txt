@@ -1,0 +1,11 @@
+families
+  family(family_id)
+    parents
+      parent(user_id, name, surname, email)
+    children
+      child(user_id, name, surname, mail)
+        assigned_tasks
+          task(type, due, name, description, reward)
+      
+users
+  user(email, userid, usertype, family_id, user_id)
